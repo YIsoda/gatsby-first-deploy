@@ -28,6 +28,17 @@ const BlogIndex = ({ data, location }) => {
       <Seo title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
+        <li>
+          <h2>サンプルText（試験）αβΓδθABCXYZ123</h2>
+          <ol>
+            <li><a href="https://ja.wikipedia.org/wiki/%CE%91%E3%83%98%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9">αヘリックス - Wikipedia</a>: 
+            αヘリックス中のアミノ酸は5.4 ÅÅ (not Å)単位の右巻きらせん構造をしている。それぞれのアミノ酸はらせん中で100°向きを変え（つまりらせんは3.6残基で1回転し）、らせんの軸の方向に1.5 Å進む。アミノ酸のアミノ基は4残基離れたアミノ酸のカルボキシル基と水素結合を作っている。これに対して、水素結合が3残基ごとのものは310ヘリックス、5残基ごとのものはΠヘリックスと呼ばれる。</li>
+            <li>
+              <a href="https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AA%E3%83%A5%E3%82%A2%E3%83%B3%E3%82%BE%E3%83%BC%E3%83%B3">ブリュアンゾーン - Wikipedia</a> ブリュアンゾーン内においてメッシュによって区分された各点(Sampling points)のことをk点（k-point）と呼ぶ。ブリュアンゾーン上のk点のうち、対称性の良い点に特に名称が付いており、X、L、Δ、Λ、Σなどの記号を付ける。ブリルアンゾーン内部はギリシャ文字で、表面はアルファベットで記す。 Several points of high symmetry are of special interest – these are called critical points.<sup>[3]</sup>
+            </li>
+            <li>A <i>quick brown fox</i> jumps over the lazy dog. X<sub>123</sub>Y<sup>456</sup>&minus;+</li>
+          </ol>
+        </li>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
