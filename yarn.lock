@@ -1284,6 +1284,11 @@
   resolved "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
 
+"@ibm/plex@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@ibm/plex/-/plex-6.0.0.tgz#c87eeb97a6dbbb3fe1705cd7a7cffa0df52831ca"
+  integrity sha512-KJv808kiPfyolO1fd2xHwhltHy2MlvpwRcGca+tOul+hbLf8r/Xx+8Xz5/KyKl/vvDJR8YXQCq09vGBAmrNDZw==
+
 "@jest/types@^25.5.0":
   version "25.5.0"
   resolved "https://registry.npmjs.org/@jest/types/-/types-25.5.0.tgz"
