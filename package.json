@@ -8,7 +8,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
-    "gatsby": "^3.14.2",
+    "gatsby": "^3.14.3",
     "gatsby-plugin-feed": "^3.14.0",
     "gatsby-plugin-google-analytics": "^3.14.0",
     "gatsby-plugin-image": "^1.14.1",
@@ -25,20 +25,34 @@
     "gatsby-transformer-remark": "^4.11.0",
     "gatsby-transformer-sharp": "^3.14.0",
     "prismjs": "^1.25.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75"
+    "typeface-merriweather": "^1.1.13",
+    "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
     "prettier": "2.4.1"
+  },
+  "acceptDependencies": {
+    "immer": "9.0.6"
+  },
+  "resolutions": {
+    "immer": ">=9.0.6",
+    "trim": ">=0.0.3",
+    "set-value": ">=4.0.1",
+    "object-path": ">=0.11.8",
+    "ansi-regex": "^5.0.1",
+    "nth-check": ">=2.0.1",
+    "ws": ">=7.4.6",
+    "sanitize-html": ">=2.3.2",
+    "browserslist": ">=4.16.5"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
+  "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
