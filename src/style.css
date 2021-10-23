@@ -1,4 +1,6 @@
 /* CSS Custom Properties Definitions */
+@import "../node_modules/@ibm/plex/css/ibm-plex-sans-jp.css";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 :root {
   --maxWidth-none: "none";
@@ -27,10 +29,10 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  --fontFamily-sans: "Merriweather Sans", "IBM Plex Sans JP", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
+  --fontFamily-serif: "Merriweather Sans", "IBM Plex Sans JP", "Georgia", Cambria, "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-serif);
   --font-heading: var(--fontFamily-sans);
@@ -44,7 +46,7 @@
   --lineHeight-none: 1;
   --lineHeight-tight: 1.1;
   --lineHeight-normal: 1.5;
-  --lineHeight-relaxed: 1.625;
+  --lineHeight-relaxed: 1.7/*1.625*/;
   /* 1.200 Minor Third Type Scale */
   --fontSize-0: 0.833rem;
   --fontSize-1: 1rem;
@@ -78,7 +80,7 @@ html {
 }
 
 body {
-  font-family: var(--font-body);
+  font-family: var(--font-body);font-weight: 450;
   font-size: var(--fontSize-1);
   color: var(--color-text);
 }
@@ -181,6 +183,7 @@ ul li,
 ol li {
   padding-left: var(--spacing-0);
   margin-bottom: calc(var(--spacing-8) / 2);
+  line-height: var(--lineHeight-relaxed);
 }
 
 li > p {
