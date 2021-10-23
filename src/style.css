@@ -1,6 +1,6 @@
 /* CSS Custom Properties Definitions */
 @import "../node_modules/@ibm/plex/css/ibm-plex-sans-jp.css";
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 :root {
   --maxWidth-none: "none";
@@ -46,7 +46,7 @@
   --lineHeight-none: 1;
   --lineHeight-tight: 1.1;
   --lineHeight-normal: 1.5;
-  --lineHeight-relaxed: 1.625;
+  --lineHeight-relaxed: 1.7/*1.625*/;
   /* 1.200 Minor Third Type Scale */
   --fontSize-0: 0.833rem;
   --fontSize-1: 1rem;
@@ -80,7 +80,7 @@ html {
 }
 
 body {
-  font-family: var(--font-body);font-weight: 300;
+  font-family: var(--font-body);font-weight: 400;
   font-size: var(--fontSize-1);
   color: var(--color-text);
 }
@@ -183,6 +183,7 @@ ul li,
 ol li {
   padding-left: var(--spacing-0);
   margin-bottom: calc(var(--spacing-8) / 2);
+  line-height: var(--lineHeight-relaxed);
 }
 
 li > p {
